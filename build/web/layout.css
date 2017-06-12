@@ -1,0 +1,129 @@
+body {
+    min-height: 100vh;
+    background-color: #ccc;
+    background-image: url("imagens/background.jpg");
+}
+
+.form{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding: 20px 30px;
+    color: #000;
+    background-color: rgba(255,255,255, 0.80);
+}
+
+.form-menu{
+    margin-top: 30px;
+    transform: translateY(-50%);
+    padding: 15px 30px;
+    color: #000;
+    background-color: rgba(255,255,255, 0.80);
+}
+
+input{
+    color: #000;
+}
+
+.icone{
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    margin:0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 3.6rem;
+    font-weight: normal;
+    color: #00BFFF;
+}
+.titulo:hover{
+    color: #00BBBB;
+    opacity: 1;   
+}
+
+.sub-titulo{
+    margin-top: 20px;
+    font-size: 2.4rem;
+    color: #00BBBF;
+    text-align: center;
+}
+
+.grupo{
+    margin-bottom: 10px;
+}
+.grupo > label{
+    font-size: 16px;
+    display:block;
+    font-weight: bold;
+}
+
+.campo{
+    display:block;
+    width: 100%;
+    height: 2.4em;
+    font-size: 1.4rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media(max-width: 570px){
+
+    .carousel-caption{
+        display:none;
+    }
+
+}
+
+.logotipo {
+    padding: 0;
+    margin-right: 20px;
+}
+
+.logotipo img{
+    height: 50px;
+}
+
+.perfil{
+    padding: 10px;
+    width: 250px;
+}
+
+.perfil li:first-child{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 767px){
+
+    .perfil{
+        color:#fff;
+    }
+
+    .perfil a{
+        color:#9d9d9d;
+        display: block;
+        padding: 5px 0;
+    }
+
+    .perfil a:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.menu-right{
+    margin-left: 40%;
+}
+
+.produto{
+    margin-top: 10px;
+}
+
+.btn-ver{
+    margin-top: 20px;
+    padding: 10px 75px;
+}
+
